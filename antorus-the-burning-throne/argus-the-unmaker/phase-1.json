@@ -182,5 +182,135 @@
         "id": 253901
       }
     }
+  },
+  {
+    "id": "F0",
+    "name": "Sargeras' Fear",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 257931
+      }
+    }
+  },
+  {
+    "id": "F1",
+    "name": "Sargeras' Fear",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 257931
+      }
+    }
+  },
+  {
+    "id": "F2",
+    "name": "Sargeras' Fear (Removed)",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 257931
+      }
+    }
+  },
+  {
+    "id": "R0",
+    "name": "Sargeras' Rage",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 257869
+      }
+    }
+  },
+  {
+    "id": "R1",
+    "name": "Sargeras' Rage",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 257869
+      }
+    }
+  },
+  {
+    "id": "R2",
+    "name": "Sargeras' Rage (Removed)",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 257869
+      }
+    }
+  },
+  {
+    "id": "U0",
+    "name": "Unleashed Rage",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": true,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 257911
+      }
+    }
+  },
+  {
+    "id": "U1",
+    "name": "Unleashed Rage",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 257911
+      }
+    }
+  },
+  {
+    "id": "C0",
+    "name": "Crushing Fear",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": true,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 257930
+      }
+    }
+  },
+  {
+    "id": "C1",
+    "name": "Crushing Fear",
+    "tags": [ "player", "debuff", "mythic" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 257930
+      }
+    }
   }
 ]
