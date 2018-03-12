@@ -1,14 +1,14 @@
 [
   {
-    "id": "BL",
-    "name": "Bloodlust",
+    "id": "HE",
+    "name": "Heroism",
     "tags": [ "shaman" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 2825
+        "ids": [ 32182, 2825 ]
       }
     }
   },
@@ -22,21 +22,6 @@
       "type": "cast",
       "ability": {
         "id": 192077
-      }
-    }
-  },
-  {
-    "id": "WA",
-    "name": "Wind Rush Totem (Speedup)",
-    "tags": [ "shaman" ],
-    "friendly": true,
-    "show": true,
-    "showSource": true,
-    "eventType": "debuff",
-    "filter": {
-      "type": "applybuff",
-      "ability": {
-        "id": 192082
       }
     }
   },
@@ -166,21 +151,8 @@
     }
   },
   {
-    "id": "HE",
+    "id": "HX",
     "name": "Hex",
-    "tags": [ "shaman" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "ids": [ 51514, 210873, 211015, 211010, 211004 ]
-      }
-    }
-  },
-  {
-    "id": "HA",
-    "name": "Hex (Applied)",
     "tags": [ "shaman" ],
     "friendly": true,
     "show": true,
