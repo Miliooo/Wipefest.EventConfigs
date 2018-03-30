@@ -2,8 +2,8 @@
   {
     "id": "TD",
     "name": "Tyr's Deliverance",
-    "tags": [ "paladin", "holy" ],
-    "show": false,
+    "tags": [ "paladin","holy" ],
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -12,11 +12,11 @@
       }
     }
   },
-{
+  {
     "id": "HA",
     "name": "Holy Avenger",
     "tags": [ "paladin", "holy" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -24,5 +24,19 @@
         "id": 105809
       }
     }
+  },
+  {
+    "id": "AW",
+    "name": "Avenging Wrath",
+    "tags": [ "paladin", "holy" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31842
+      }
+    }
   }
 ]
+
