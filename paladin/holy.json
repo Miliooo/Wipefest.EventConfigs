@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "TD",
+    "name": "Tyr's Deliverance",
+    "tags": [ "paladin", "holy" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 200652
+      }
+    }
+  },
+{
+    "id": "HA",
+    "name": "Holy Avenger",
+    "tags": [ "paladin", "holy" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 105809
+      }
+    }
+  }
+]
